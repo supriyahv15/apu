@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.361" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Im testing Web application" name="To test login function - Example #1.1" time="6.913">
+<system-out><![CDATA[
+Given Navigate to login page................................................passed
+When Enter the username "standard_user".....................................passed
+And Enter the password "secret_sauce".......................................passed
+And Click on login button...................................................passed
+Then Homepage should be displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Im testing Web application" name="To test login function - Example #1.2" time="5.152">
+<system-out><![CDATA[
+Given Navigate to login page................................................passed
+When Enter the username "problem_user"......................................passed
+And Enter the password "secret_sauce".......................................passed
+And Click on login button...................................................passed
+Then Homepage should be displayed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
